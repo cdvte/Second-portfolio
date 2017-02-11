@@ -1,2 +1,2 @@
 # APRim05.github.io
-This is my portfolio site
+This is my personal site
