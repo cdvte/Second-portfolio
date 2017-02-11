@@ -1,0 +1,85 @@
+body {
+    background-image: url("https://images7.alphacoders.com/408/408397.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 70px;
+}
+.navbar-brand {
+    font-family: 'Pangolin', cursive;
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 33px;
+    padding-bottom: 5px;
+    font-family: 'Pangolin', cursive;
+}
+
+p, .caption {
+	font-family: 'Muli', sans-serif;
+	font-weight: bold;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(24, 48, 89, 0.3), rgba(24, 48, 89, 0.75), rgba(24, 48, 89, 0.3));
+    width: 40%;
+    margin-left: 0;
+}
+
+.navbar-inverse {
+    background-color: #183059;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: #10213d;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    transition: 0.7s background ease-in-out;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    background-color: #10213d;
+}
+
+.jumbotron {
+    color: #2c3e50;
+    background-color: rgba(236, 240, 241, 0.9);
+}
+
+img {
+    min-height: 150px;
+    max-height: 150px;
+}
+
+.btn-primary {
+    margin-left: 10px;
+    margin-top: 5px;
+    background-color: #10213d;
+    transition: 0.7s background ease-in-out;
+}
+
+.thumbnail {
+    transition: filter 0.7s ease-in-out;
+}
+
+.thumbnail:hover {
+    filter: drop-shadow(5px 5px 5px #10213d);
+}
+
+a:link, a:hover, a:active, a:visited {
+    text-decoration: none;
+}
